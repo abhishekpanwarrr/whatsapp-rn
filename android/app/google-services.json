@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758091324728",
+    "project_id": "testing-firebase-603f2",
+    "storage_bucket": "testing-firebase-603f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758091324728:android:f985bd381f1783e87475cd",
+        "android_client_info": {
+          "package_name": "com.reactfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrxntbpGFWxt-Bb_sCPpy0YKb6B8M6k0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
