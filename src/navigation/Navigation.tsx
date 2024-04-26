@@ -3,8 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import auth from '@react-native-firebase/auth';
 import SignIn from '../screens/SignIn';
-import HomeScreen from '../screens/StatusScreen';
 import Dashboard from '../screens/Dashboard';
+import ChatScreen from '../screens/ChatScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -33,6 +33,7 @@ const Navigation = () => {
                     headerShown: false
                 }}>
                     <Stack.Screen name="Dashboard" component={Dashboard} />
+                    <Stack.Screen name="ChatScreen" component={ChatScreen} />
                 </Stack.Navigator>
             }
         </NavigationContainer>
